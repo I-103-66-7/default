@@ -9,6 +9,11 @@
 		"fieldName" "HudPlayerStatus"
 	}
 	
+	"HudObjectiveStatus"
+	{
+		"fieldName" "HudObjectiveStatus"
+	}	
+
 	"HudMedicCharge"
 	{
 		"fieldName" "HudMedicCharge"

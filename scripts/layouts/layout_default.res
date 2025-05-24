@@ -10,6 +10,11 @@
 		"enabled" "1"
 	}
 	
+	"HudObjectiveStatus"
+	{
+		"xpos" "0" "ypos" "0" "wide" "f0" "tall" "480" "visible" "1" "enabled" "1"
+	}
+
 	"HudMedicCharge"
 	{
 		"xpos" "r138"	
@@ -185,7 +190,7 @@
 		"tall" "200"
 		"visible" "1"
 		"enabled" "1"
-		"separator_width" "9"	// distance between the icons (including their backgrounds)
+		"separator_width" "2"	// distance between the icons (including their backgrounds)
 		"separator_height" "7"
 		"height_offset" "0"	 	// distance from the bottom of the panel
 	}
