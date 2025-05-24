@@ -50,10 +50,10 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 
-			"CExButton"
+			"Button"
 			{
-				"fieldName"		"CExButton"
-				"ControlName"	"CExButton"
+				"fieldName"		"Button"
+				"ControlName"	"Button"
 				"wide"			"25"
 				"tall"			"13"
 				"visible"		"1"
