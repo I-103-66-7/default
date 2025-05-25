@@ -50,9 +50,9 @@
 	}
 
 	"HudMessage"
-    {
-        "fieldName" "HudMessage"
-    }
+    	{
+        	"fieldName" "HudMessage"
+    	}
 
 	"HudMenu"
 	{
