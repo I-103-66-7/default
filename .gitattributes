@@ -1,2 +1,6 @@
 *.res linguist-language=vdf
 **/*.res linguist-detectable=true
+
+.gitattributes export-ignore
+.gitignore export-ignore
+README.md export-ignore
