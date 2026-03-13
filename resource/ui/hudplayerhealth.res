@@ -17,7 +17,7 @@
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName" "CExLabel" "fieldName" "PlayerStatusHealthValueShadow"
-		"xpos" "-1" "ypos" "-1" "zpos" "5" "wide" "50" "tall" "18" "labelText" "%Health%" "textAlignment" "center"
+		"xpos" "-1" "ypos" "-1" "zpos" "5" "wide" "50" "tall" "17" "labelText" "%Health%" "textAlignment" "center"
 		"font" "HudClassHealth" "visible" "1" "enabled" "1"
 		"fgcolor" "CustomGray"
 		"pin_to_sibling" "PlayerStatusHealthValue"

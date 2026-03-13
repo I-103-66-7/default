@@ -2,8 +2,7 @@
 {
 	"file" "scripts/hudanimations.txt"
 	"file" "scripts/animations/animations_dimmer.txt"
-	"file" "scripts/animations/animations_disguise.txt"
-	"file" "scripts/animations/animations_health.txt"
+	"file" "scripts/animations/animations_core.txt"
 	"file" "scripts/animations/animations_removed.txt"
 	"file" "scripts/hudanimations_tf.txt"
 }

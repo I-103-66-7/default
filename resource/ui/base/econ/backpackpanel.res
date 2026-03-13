@@ -53,7 +53,7 @@
 			"Button"
 			{
 				"fieldName"		"Button"
-				"ControlName"	"Button"
+				"ControlName"	"CExButton"
 				"wide"			"25"
 				"tall"			"13"
 				"visible"		"1"
@@ -66,6 +66,7 @@
 				"font"				"HudFontSmallestBold"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"button_activation_type"	"2"
 			}
 
 			"New"

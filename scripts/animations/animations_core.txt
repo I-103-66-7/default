@@ -1,0 +1,66 @@
+event CompetitiveGame_RestoreChatWindow
+{
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudHealthDyingPulseStop 0.1
+	RunEvent HudLowAmmoPulseStop	 0.1
+	RunEvent HudSpyDisguiseFadeIn	 0.1
+	RunEvent HudSpyDisguiseFadeOut	 0.1
+
+    RunEvent TestLoop                0.0
+}
+
+event HudHealthBonusPulse
+{
+
+}
+event HudHealthBonusPulseStop
+{
+
+}
+
+event HudHealthDyingPulse
+{	
+	Animate PlayerStatusHealthValue					FgColor "TanLight"								Linear 0.0 0.0
+	Animate	PlayerStatusMaxHealthValue				FgColor	"CustomYellow"							Linear 0.0 0.0
+
+	RunEvent HudHealthDyingPulseLoop				0.25
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse					0.0
+	StopEvent HudHealthDyingPulseLoop 				0.0
+	
+	Animate PlayerStatusHealthValue					FgColor "TanDark"								Linear 0.0 0.0
+	Animate	PlayerStatusMaxHealthValue				FgColor	"CustomLightGreen"						Linear 0.0 0.0
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged					0
+	Animate PlayerStatusSpyImage					Alpha "255"										Linear 0.9 0.1	
+}
+
+event Test
+{
+    RunEvent TestLoop                0.01
+}
+event TestLoop
+{
+    RunEvent Test                    0.0
+}
+
+event CompetitiveGame_ShowPvPRankPanel
+{
+	RunEventChild RankPanel PvPRankPanelShowXPChange 0
+}
+
+event SurveyShowSequence
+{
+    RunEventChild Survey SurveyDelete 0.1
+}
+
+event IntroMovieContinueBlinkStop
+{
+	FireCommand 0.0 "skip"
+}

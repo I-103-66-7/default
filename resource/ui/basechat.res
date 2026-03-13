@@ -1,18 +1,13 @@
 "Resource/UI/BaseChat.res"
 {
-	"ChatFiltersButton"	{	"ControlName"	"CExButton"	"fieldName"	"ChatFiltersButton"	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"ChatFiltersButton"{"ControlName" "CExButton" "fieldName" "ChatFiltersButton" "xpos" "9999" "visible" "0" "enabled" "0"}
 
 	"HudChat"
 	{
-		"ControlName"		      					"EditablePanel"
-		"fieldName" 		      					"HudChat"
-		"visible" 		        					"1"
-		"enabled" 		        					"1"
-		"xpos"			          					"0"
-		"ypos"			          					"-2"
-		"wide"	 		          					"160"
-		"tall"	 		         					"120"
-		"PaintBackgroundType"						"0"
+		"ControlName" "EditablePanel" "fieldName" "HudChat"
+		"xpos" "0" "ypos" "-2" "wide" "160" "tall" "120"
+		"visible" "1" "enabled" "1"
+		"PaintBackgroundType" "0"
 	}
 
 	"ChatInputLine"
@@ -25,18 +20,8 @@
 
 	"HudChatHistory"
 	{
-		"ControlName"		      					"RichText"
-		"fieldName"		       						"HudChatHistory"
-		"xpos"			          					"0"
-		"ypos"			          					"0"
-		"wide"	 		          					"160"
-		"tall"			          					"400"
-		"wrap"			          					"1"
-		"visible"		          					"1"
-		"enabled"		          					"1"
-		"labelText"		        					""
-		"textAlignment"		    					"south-west"
-		"font"			        					"ChatFont"
-		"maxchars"		       						"-1"
+		"ControlName" "RichText" "fieldName" "HudChatHistory"
+		"xpos" "0" "ypos" "0" "wide" "160" "tall" "400" "labelText" "" "textAlignment" "south-west"
+		"font" "ChatFont" "maxchars" "-1" "visible" "1" "enabled" "1" "wrap" "1"
 	}
 }

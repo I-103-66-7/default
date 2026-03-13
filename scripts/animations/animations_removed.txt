@@ -124,4 +124,3 @@ event FlagOutline{}
 event HudSpyDisguiseChanged{}
 event HudSpyDisguiseHide{}
 event HudSpyDisguiseFadeOut{}
-event SurveyShowSequence { RunEventChild Survey SurveyDelete 0.1 }

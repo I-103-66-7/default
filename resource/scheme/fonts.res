@@ -36,6 +36,17 @@
 			"6"{"name" "Arial" "tall" "12" "weight" "0" "range" "0x0000 0x00FF"}
 		}		
 
+		"PlayerPanelPlayerNameShadow"
+		{
+			"1"
+			{
+				"name"		    "Verdana"
+				"tall"			"6"
+				"weight"		"500"
+				"dropshadow"	"1"
+			}
+		}
+
 		"verdana 8"
 		{
 			"1"

@@ -14,6 +14,16 @@
 		"fieldName" "HudObjectiveStatus"
 	}	
 
+	"CMainTargetID"
+	{	
+		"fieldName" "CMainTargetID"
+	}
+
+	"CSpectatorTargetID"
+	{
+		"fieldName" "CSpectatorTargetID"
+    } 
+
 	"HudMedicCharge"
 	{
 		"fieldName" "HudMedicCharge"
@@ -50,9 +60,9 @@
 	}
 
 	"HudMessage"
-    	{
-        	"fieldName" "HudMessage"
-    	}
+	{
+		"fieldName" "HudMessage"
+	}
 
 	"HudMenu"
 	{
@@ -74,6 +84,11 @@
 		"fieldName" "CTextureBudgetPanel"
 	}
 	
+	"HudScope"
+	{
+		"fieldName" "HudScope"
+	}
+
 	"HudScopeCharge"
 	{
 		"fieldName" "HudScopeCharge"
@@ -87,11 +102,6 @@
 	"HudVoiceStatus"
 	{
 		"fieldName" "HudVoiceStatus"
-	}
-
-	"HudControlPointIcons"
-	{
-		"fieldName" "HudControlPointIcons"
 	}
 
 	"HudChat"
@@ -122,10 +132,5 @@
 	"HudMenuTauntSelection"
 	{
 		"fieldName" "HudMenuTauntSelection"
-	}
-
-	"HudMatchStatus"
-	{
-		"fieldName" "HudMatchStatus"
 	}
 }

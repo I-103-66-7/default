@@ -2,6 +2,15 @@
 
 "Resource/UI/ControlPointIcon.res"
 {
+	"HudControlPointIcons"
+	{
+		"fieldName" "HudControlPointIcons"
+		"xpos" "0" "ypos" "410" "wide" "f0" "tall" "200"
+		"visible" "1" "enabled" "1"
+		"separator_width" "2" "separator_height" "7"
+		"height_offset" "0"
+	}
+
 	"ControlPointIcon"
 	{
 		"xpos" "0" "ypos" "0" "wide" "18" "tall" "18"

@@ -257,10 +257,10 @@
 	{
 		"fieldName" "HudZoom" "xpos" "9999" "tall" "0" "visible" "0" "enabled" "0"	
 	}	
-	"HudScope"
-	{
-		"fieldName" "HudScope" "pin_to_sibling" "KILLYOURSELF"
-	}	
+//	"HudScope"
+//	{
+//		"fieldName" "HudScope" "pin_to_sibling" "KILLYOURSELF"
+//	}	
 //	"HudScopeCharge"
 //	{
 //		"fieldName" "HudScope" "pin_to_sibling" "KILLYOURSELF"

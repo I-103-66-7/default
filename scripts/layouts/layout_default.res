@@ -2,18 +2,22 @@
 {
 	"HudPlayerStatus"
 	{
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
-		"visible" "1"
-		"enabled" "1"
+		"xpos"	"0" "ypos"	"0" "wide"	"f0" "tall"	"f0"
 	}
-	
 	"HudObjectiveStatus"
 	{
 		"xpos" "0" "ypos" "0" "wide" "f0" "tall" "480" "visible" "1" "enabled" "1"
 	}
+
+	// Those needs to be set in hudlayout specifically for centered target id
+	"CMainTargetID" 
+	{	
+		"xpos" "0" "ypos" "0" "wide" "f0" "tall" "f0"	
+	}
+	"CSpectatorTargetID"
+	{
+		"xpos" "0" "ypos" "0" "wide" "f0" "tall" "f0"	
+    } 
 
 	"HudMedicCharge"
 	{
@@ -39,12 +43,10 @@
 	}
 	
 	"BuildingAnchor"{"ControlName" "EditablePanel" "fieldName" "BuildingAnchor" "xpos" "-8" "ypos" "120" "zpos" "0" "wide" "1" "tall" "1" "visible" "0" "enabled" "1" "alpha"	"0"}
-	
 	"BuildingStatus_Spy"
 	{
 		"xpos" "0" "ypos" "0" "wide" "f0" "tall" "480" "visible" "1" "enabled" "1" "pin_to_sibling" "BuildingAnchor"
 	}
-	
 	"BuildingStatus_Engineer"
 	{
 		"xpos" "0" "ypos" "0" "wide" "f0" "tall" "480" "visible" "1" "enabled" "1" "pin_to_sibling" "BuildingAnchor"
@@ -134,6 +136,13 @@
 		"enabled" "1"
 	}
 	
+	"HudScope"
+	{
+		"wide" "640"
+		"tall" "f0"
+		"visible" "1"
+		"enabled" "1"
+	}
 	"HudScopeCharge"
 	{
 		"xpos" "c64"
@@ -180,19 +189,6 @@
 		"icon_wide" "16"
 		
 		"text_xpos" "33"
-	}
-
-	"HudControlPointIcons"
-	{
-		"xpos" "0"
-		"ypos" "410"
-		"wide" "f0"
-		"tall" "200"
-		"visible" "1"
-		"enabled" "1"
-		"separator_width" "2"	// distance between the icons (including their backgrounds)
-		"separator_height" "7"
-		"height_offset" "0"	 	// distance from the bottom of the panel
 	}
 
 	"HudChat"
@@ -252,17 +248,6 @@
 		"ypos" "c-52"
 		"wide" "470"
 		"tall" "200"
-		"visible" "1"
-		"enabled" "1"
-	}
-
-	"HudMatchStatus"
-	{
-		"xpos" "0"
-		"ypos" "0"
-		"zpos" "3"
-		"wide" "f0"
-		"tall" "f0"
 		"visible" "1"
 		"enabled" "1"
 	}

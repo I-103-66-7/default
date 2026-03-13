@@ -4,7 +4,7 @@
 {
 	"MainMenuOverride"
 	{
-		//WORK RETARD
+		// WORK RETARD
 		"button_kv"{"xpos" "9999"}
 		"SaxxySettings"{"xpos" "9999"}
 	}		

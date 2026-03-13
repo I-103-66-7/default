@@ -2,6 +2,13 @@
 
 "Resource/UI/HudMatchStatus.res"
 {
+	"HudMatchStatus"
+	{
+		"fieldName" "HudMatchStatus"
+		"xpos" "0" "ypos" "0" "zpos" "3" "wide" "f0" "tall" "f0"
+		"visible" "1" "enabled" "1"
+	}
+
 	"ObjectiveStatusTimePanel"
 	{
 		"xpos" "r69" "ypos" "-15" "delta_lifetime" "0" 
@@ -31,11 +38,15 @@
 
 			"classimage"{"xpos" "cs-0.5" "ypos" "cs-0.5" "wide" "8" "tall" "o1"}
 
+			"respawntime"
+			{
+				"font" "PlayerPanelPlayerNameShadow" "xpos" "cs-0.5" "ypos" "cs-0.5" "wide" "f0" "tall" "o1" "fgcolor" "BrightYellow"
+			}
+
 			"playername"{"xpos" "9999"}
 			"classimagebg"{"xpos" "9999"}
 			"healthbar"{"xpos" "9999"}
-			"overhealbar"{"xpos" "9999"}
-			"respawntime"{"xpos" "9999"}		
+			"overhealbar"{"xpos" "9999"}		
 			"HealthIcon"{"xpos" "9999" "visible" "0" "enabled" "0"}
 			"ReadyBG"{"xpos" "9999"}
 			"ReadyImage"{"xpos" "9999"}
